@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pardume">
+    <meta name="title" content="Jagriti | Portfolio">
+    <meta name="description" content="">
+    <meta name="keywords" content="Jagriti, Portfolio, Sharmai">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-GLhlTQ8iNl6UuMz9MmtHWI5Izjg4nqtVhA4f5+9v6tqUstC4p4E4lqY4zB+EMl/n" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Jagriti | Portfolio</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+
+         <header>
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Jagriti logo">
+                </div>
+                <div class="nav">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#ach-head">Achievements</a>
+                        <a class="nav-link" href="#high">Highlights</a>
+                        <a class="nav-link" href="#feed-head">Feedback</a>
+                        <a class="nav-link" href="#contact-head"><button class="nav-btn">Hire me</button></a>
+                </div>
+
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="hero">
+                
+                <div class="hero-txt">
+                    <p id="intro">
+                        Hi, I am Jagriti Sharma 
+                        <br> 
+                        <span id="textToModify">Physicist</span>
+                        <span id="cursor">&#8203;</span>
+                    </p>
+
+                    <p class="hero-description">
+                        A passionate and dedicated physicist with a Master's degree in Physics. My academic journey has been a thrilling exploration of the fundamental principles that govern our universe, and I am excited to share my expertise and experiences with you. 
+                    </p>
+                    
+                    <button class="hero-btn">
+                        Explore me More
+                    </button>
+                </div>
+                
+                <div class="hero-img">
+                    <img src="/images/img.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="ach-head">
+        <p>My <span>Experience </span></p>
+    </div>
+    <div class="achievement">
+
+        <div class="achieve">
+                
+                <div class="ach-txt" id="content-container">
+                <br><br>
+                <p></p>
+                </div>
+
+                <div class="slideshow-container">
+                    <img src="//images/cnt-img.jpg" alt="" id="image-container">
+                
+                </div>
+                
+            </div>
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+           <a class="next" onclick="plusSlides(1)">&#10095;</a>  -->
+            <div class="resume">
+            <a href="Resume.pdf">
+                <button >Download My Resume</button>
+            </a>
+        </div>
+    </div> 
+            
+    <section class="newsletter" id="feedback"> 
+        <form action="https://api.web3forms.com/submit" method="POST">
+        
+            <h3>Feedback Form</h3>
+            <input type="hidden" name="access_key" value="ac691ca3-9abd-45a3-a2a5-1c39bfe387f2">
+    
+        
+            <input type="text" name="name" class="box" placeholder="Enter your Name" required>
+            <input type="email" name="email" class="box" placeholder="Enter your email" required>
+            <textarea name="message" class="box" placeholder="Give your Feedback " required></textarea>
+            <!-- <div class="h-captcha" class="box" data-captcha="true"></div> -->
+            <p id="thanks"></p>
+            <button type="submit" class="news-btn" onclick="thanks()">Submit</button>
+        </form>
+    </section>
+        
+    <div id="feed-head">Feedback</div>
+    <div class="feed" id="feedback-container">
+        <div class="feed1">
+            Your portfolio stands out with a professional and sleek design. Navigating through your projects was a breeze, thanks to the intuitive layout. It's evident that you prioritize quality in your work. I appreciated the diversity in your showcased projects; it demonstrates versatility and adaptability.
+        </div>
+        <div class="feed2">
+            Impressive portfolio! Your work is not only visually appealing but also showcases a clear passion for Physics. The organized layout makes it easy to navigate and understand your expertise.
+            
+        </div>
+    </div>
+
+       
+    
+    <div class="add-feed">
+        <form id="add-feed-form">
+                <input type="text" id="name-role" placeholder="Enter Your Name and Role..">
+                <textarea id="feedback-text" cols="10" rows="4" placeholder="Enter your message.."></textarea>
+                <button type="button" onclick="addFeedback()" class="add-btn">Add feedback</button>
+            </form>
+        </div>
+
+    
+    <footer class="footer">
+        <div class="usr-details">
+            <img src="logo.png" alt="">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ac691ca3-9abd-45a3-a2a5-1c39bfe387f2">
+                <input type="email" name="email" class="box" placeholder="Enter your email" required>
+                <!-- <div class="h-captcha" class="box" data-captcha="true"></div> -->
+                <p id="thanks"></p>
+                <button type="submit"onclick="thanks()">Submit</button>
+            </form>
+        </div>
+
+        <div class="cnts">
+           <a href="tel:+7009859363">7009859363</a>
+            <a href="mailto:jagriti181201@gmail.com">jagriti181201@gmail.com</a>
+            <a href="https://www.google.co.in/maps/place/422,+Guru+Nanak+Colony,+Mubarik+Mehal+Colony,+Sangrur,+Punjab+148001/@30.2520948,75.8386127,55m/data=!3m1!1e3!4m15!1m8!3m7!1s0x3910511bcd63985b:0x59217aaaf6ed51bd!2s6RXP%2BWJ8+Kaula+park,+opposite+HDFC+bank,+Partap+Nagar,+Sangrur,+Punjab+148001!3b1!8m2!3d30.2496656!4d75.8365319!16s%2Fg%2F11ghdrq3bf!3m5!1s0x3910511b823ca139:0xd6f073425bb19760!8m2!3d30.2520726!4d75.8387563!16s%2Fg%2F11s9wjx_tc?entry=ttu" target="_blank" rel="noopener noreferrer">#C-422,Gurur Nanak Colony <br> Sangrur,Punjab</a>
+        </div>
+
+    </footer>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
